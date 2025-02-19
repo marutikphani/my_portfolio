@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Maruti Kari</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #000;
+            color: #d4ffcc;
+            text-align: center;
+        }
+        .header-container {
+            background: #111;
+            padding: 40px 20px;
+            color: #00ff00;
+            border-bottom: 2px solid #00ff00;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .project-box {
+            background: rgba(33, 38, 45, 0.9);
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0px 5px 15px rgba(88, 166, 255, 0.2);
+            margin: 15px 0;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1em;
+            color: black;
+            background: #00ff00;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: #00cc00;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <header class="header-container">
+        <h1>My Projects</h1>
+    </header>
+
+    <div class="container">
+        <div class="project-box">
+            <h2>Twitter Sentiment Analysis and Live Graphing</h2>
+            <p>Produced live sentiment graph of Twitter data captured using the Twitter live streaming API.</p>
+            <p>Preprocessed a sample sentiment dataset using NLTK to create the feature vectors.</p>
+            <p>Built a voting system in which the common vote of several classifiers was used to get the sentiment of a tweet and the confidence of the prediction.</p>
+            <a href="https://github.com/marutikphani/-Twitter-sentiment-analysis-and-live-graphing" target="_blank" class="btn">View on GitHub</a>
+        </div>
+            <div class="project-box">
+            <h2>Geotagging of Disabled-Friendly Locations</h2>
+            <p>An Android application to map disabled-friendly locations tailored for deaf, dumb, blind, and handicapped people.</p>
+            <p>It populates geotagged places with photographs, categories, and types of disabled-friendly facilities by collecting data through crowdsourcing.</p>
+            <p>The application has a disabled-friendly interface, with functionalities such as speech recognition, text-to-speech, and voice navigation.</p>
+            <p><strong>Tech Stack:</strong> Firebase, Google APIs, SQLite, Java, XML, Android Studio</p>
+            <a href="https://github.com/marutikphani/Geotagging-of-disabled-friendly-locations-main" target="_blank" class="btn">View on GitHub</a>
+        </div>
+    </div>
+</body>
+</html>
